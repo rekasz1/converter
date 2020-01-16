@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <h1>Hello, this is your Converter!</h1>
+  <p>Always caused a headache form me, if i had to convert units in my head.... </p>
+  <form>
+    Convert from:<br>
+    <input type="text" unit="kg, gr"><br>
+    To:<br>
+    <input type="text" unit="lbs, pounds">
+  </form>
+ 
+
+  </head>
+
+  <body>
+
+    <div></div>
+    
+  </body>
+
+</html>
+
+
+
+<html>
+
+<head>
+  <style>
+    .moving-box {
+  
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      position: relative;
+      -webkit-animation-name: example;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-duration: 4s;
+      /* Safari 4.0 - 8.0 */
+      -webkit-animation-direction: reverse;
+      /* Safari 4.0 - 8.0 */
+      animation-name: example;
+      animation-duration: 4s;
+      animation-direction: normal;
+      animation-timing-function: ease-in-out;
+      animation-iteration-count: infinite;
+    }
+
+    /* Safari 4.0 - 8.0 */
+    @-webkit-keyframes example {
+      0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+      }
+
+      25% {
+        background-color: yellow;
+        left: 25%;
+        top: 0px;
+      }
+
+      50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+      }
+
+      75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+      }
+
+      100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+      }
+    }
+
+    /* Standard syntax */
+    @keyframes example {
+      0% {
+        background-color: purple;
+        left: 0px;
+        top: 0px;
+      }
+
+      25% {
+        background-color: yellow;
+        left: 25%;
+        top: 0px;
+      }
+
+      50% {
+        background-color: orange;
+        left: 50%;
+        top: 0px;
+      }
+
+      75% {
+        background-color: orangered;
+        left: 75%;
+        top: 0px;
+      }
+
+      100% {
+        background-color: red;
+        left: 95%;
+        top: 0px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <p><b>Yaaaaay!</b></p>
+
+  <div class="moving-box"><img src="little_ship.jpg"></div>
+
+</body>
+
+</html>
